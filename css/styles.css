@@ -11559,6 +11559,13 @@ html {
   background: linear-gradient(135deg, #1e30f3 0%, #e21e80 100%);
 }
 
+
+
+.bg-gradient-primary-to-new {
+  background: #fff;
+  background: linear-gradient(135deg, #1e30f3 0%, #e21e80 100%);
+}
+
 .text-gradient {
   background: -webkit-linear-gradient(315deg, #1e30f3 0%, #e21e80 100%);
   -webkit-background-clip: text;
@@ -11595,6 +11602,18 @@ html {
   left: 50%;
   transform: translateX(-50%);
 }
+
+
+.profile .profile-photo{
+  height: 100vw;
+  max-height: 65rem;
+  position: absolute;
+  bottom: -50%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+
 .profile .dots-1 {
   position: absolute;
   width: 3vw;
